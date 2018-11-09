@@ -48,14 +48,34 @@
     }
 
     /* Feature */
-    .feature span {
-        position: relative;
-        font-size: 2em;
+    .main_feature_area span.title-fitur {
+        position: static;
+        padding: 0 1.5em;
     }
-    .main_feature_area .slider {
+    .main_feature_area .carousel {
+        width: 100%;
+        margin: 0;
+    }
+    .main_feature_area .carousel-indicators {
+        bottom: 10px;
+        left: 50%;
+    }
+    .main_feature_area .item img {
         width: 100%;
     }
-    
+    .main_feature_area .detail-fitur {
+        padding: 30px 15px 45px;
+        position: static;
+        left: 0;
+        bottom: 0;
+    }
+
+    /* Popular */
+    .popular .card-title p {
+        font-size: 2.5em;
+    }
+
+
     /* Footer */
     .foot-social, .footer {
         text-align: center;
