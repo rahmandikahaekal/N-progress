@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:700|Josefin+Slab:400,600,700');
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f0f1f8;
+}
+h1 {
+    font-size: 7em;
+    font-weight: bold;
+}
+h2 {
+    font-size: 4.4em;
+    font-weight: bold;
+}
+h3 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 0px;
+}
+.navbar .nav a {
+    color: #232f4a !important;
+    font-size: 20px;
+}
+.navbar .navbar-brand img {
+    width: 26px;
+}
+.nav i {
+    font-size: 25px;
+}
+
+/* Home Banner */
+.home-banner {
+    background: url('../img/banner-home.png') bottom right;
+    background-color: #f0f1f8;
+    background-size: cover;
+    height: 678px;
+}
+.logo-nompang {
+    width: 45%;
+}
+.main_banner_area {
+    padding-top: 90px;
+    color: #fff;
+}
+.main_banner_area h2 {
+    margin-bottom: 20px;
+}
+.img-promo {
+    width: 250px;
+    margin-right: 20px
+}
+
+/* Feature */
+.feature {
+    background-color: #f0f1f8;
+    color: #212d46;
+    padding: 0 0 70px;
+}
+.main_feature_area span.title-fitur {
+    position: absolute;
+    left: 15%;
+    padding-top: 15%;
+    font-size: 4.4em;
+    font-weight: bold;
+}
+.main_feature_area .carousel {
+    width: 65%;
+    margin-left: 23em;
+}
+.main_feature_area .carousel-indicators {
+    bottom: 3em;
+    left: 16.3em;
+}
+.main_feature_area .carousel-indicators li {
+    background-color: transparent;
+    border: 2px solid #212d46;
+    width: 15px; height: 15px;
+}
+.main_feature_area .carousel-indicators .active {
+    background-color: #212d46;
+    border-color: #212d46;
+}
+.main_feature_area .item img {
+    width: 60%;
+}
+.main_feature_area .detail-fitur {
+    position: relative;
+    left: 27em;
+    bottom: 23em;
+}
+.detail-fitur b {
+    font-size: 2em;
+}
+.detail-fitur b span {
+    background-color: #212d46;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 50%;
+}
+.detail-fitur p {
+    font-size: 1em;
+    padding-left: 3em;
+}
+
+
+/* Core Value */
+.core-value {
+    background-color: #ffffff;
+    color: #232f4a;
+    padding: 70px 0px;
+}
+.core-value h3 {
+    padding-bottom: 70px;
+}
+.core-value span {
+    font-size: 30px;
+    font-weight: 700;
+}
+.core-value p {
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+.core-value span {
+    font-family: 'Cabin', sans-serif;
+}
+.core-value p.desc {
+    padding: 15px 0px;
+}
+.core-value div.text-right {
+    padding-right: 15px;
+    font-size: 17px;
+}
+.core-value .fitur_logo {
+    width: 60px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.core-value .avatar_img {
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.core-value div.text-right ul li {
+    display: inline-block;
+}
+
+/* Video Promo */
+.video-promo {
+    background-color: #48dc34;
+    color: red;
+    padding: 120px 0;
+}
+
+/* Most Popular Routes */
+.popular {
+    background-color: #fff;
+    color: #212d46;
+    padding: 80px 0px;
+}
+.popular h3 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.popular .card {
+    margin: 0 40px;
+    border-radius: 30px !important;
+    box-shadow:1px 5px 13px 4px #888888
+}
+.popular .card-title {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+.popular .card-title p {
+    font-weight: bold;
+    color: #fff;
+    font-size: 3em;
+}
+.popular .card-img {
+    border-radius: 27px 27px 0 0;
+}
+.popular .card-img::after {
+    background-color: #000;
+    opacity: 0.4;
+}
+.popular .card-body p {
+    font-weight: bold;
+    font-size: 2.5em;
+    padding: 15px 50px 20px;
+}
+
+
+/* FOOTER */
+#site-footer{
+    background-color: #212d46
+}
+.foot-social {
+    color: white;
+}
+.foot-social section {
+    margin-bottom: 70px;
+}
+.main_foot_area {
+    padding-top: 30px;
+}
+.main_foot_area {
+    font-weight: bold;
+}
+.waze-text{
+    font-size: 3.4em;
+    font-weight: bold;
+}
+.foot-social p {
+    padding-top: 17px;
+    padding-bottom: 15px;
+}
+ul.label_social_link {
+    padding: 0;
+}
+.label_social_link li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.label_social_link li a i {
+    font-size: 32px;
+    color: #fff;
+}
+.foot-social .form-control {
+    background-color: #212d46;
+    border: 2px solid #fff;
+    color: #fff;
+    width: 70%;
+}
+.foot-social .form-control:focus {
+    box-shadow: none;
+}
+.link-social {
+    padding: 0;
+    padding-top: 30px
+}
+.link-social li {
+    list-style: none;
+    padding-bottom: 10px
+}
+.link-social li a {
+    color: #00f3ffb8 !important;
+    font-weight: bold;
+}
+.link-social li a:hover {
+    color: ;
+    text-decoration: none;
+}
+
+.footer section {
+    font-weight: bold;
+    padding: 15px 0 5px;
+    color: #88eccc47 !important;
+    border-top: 2px solid #88eccc47;
+}
+.footer section .left-col ,
+.footer section .right-col {
+    padding: 0;
+}
+.footer .left-col {
+    text-align: left;
+}
+.footer .right-col {
+    text-align: right;
+}
+.footer .right-col ul li {
+    display: inline-block;
+    padding-left: 10px;
+    text-decoration: underline;
+    font-size: 12px;
+}
+.footer .right-col ul li a {
+    color: #88eccc47 !important;
+}
+
+/* parallax content */
+@media ( min-width: 990px) {
+
+    #site-content {
+        min-height: 100vh;
+        position: relative;
+        z-index: 1;
+    
+        -webkit-box-shadow: #000 0 7px 35px 0;
+        -moz-box-shadow: #000 0 7px 35px 0;
+        box-shadow: #000 0 7px 35px 0;
+    }
+
+    #site-footer {
+        padding: 25px 0;
+        position: fixed;
+        z-index: -1;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    html, body {
+        padding: 0;
+        margin: 0;
+    }
+
+    #site-footer {
+        min-height: 5vw;
+        
+    }
+}

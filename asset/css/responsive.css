@@ -1,0 +1,84 @@
+@media (max-width: 1025px) {
+    .home-banner {
+        height: 585px;
+        background-position: bottom
+    }
+    .main_banner_area .logo-nompang {
+        width: 45%;
+    }
+    .main_banner_area h2 {
+        font-size: 3.5em;
+    }
+    .img-promo {
+        width: 175px;
+        margin-right: 20px
+    }
+
+    .popular .card-body p {
+        font-weight: bold;
+        font-size: 1.5em;
+        padding: 15px 0px 20px 20px;
+    }
+    .popular .card-img {
+        border-radius: 27px 27px 0 0;
+    }
+}
+
+@media (max-width: 992px ) {
+    #site-content {
+        margin-bottom: 0px !important;
+    }
+    
+}
+@media (max-width: 426px) {
+    /* Home-Banner */
+    .home-banner .main_banner_area {
+        padding: 70px 20px 0;
+    }
+    .home-banner .main_banner_area img.logo-nompang {
+        width: 80%;
+    }
+    .home-banner .main_banner_area h2 {
+        font-size: 2.7em;
+    }
+    .home-banner .button-store .img-promo {
+        margin-bottom: 10px;
+        width: 135px;
+        display: inline;
+    }
+
+    /* Feature */
+    .feature span {
+        position: relative;
+        font-size: 2em;
+    }
+    .main_feature_area .slider {
+        width: 100%;
+    }
+    
+    /* Footer */
+    .foot-social, .footer {
+        text-align: center;
+    }
+    .foot-social .language {
+        margin-bottom: 30px;
+    }
+    .foot-social ul.link-social {
+        text-align: left;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+    .footer section .left-col ,
+    .footer section .right-col {
+        padding: 0 15px;
+        text-align: center;
+    }
+    .footer .right-col ul {
+        padding-left: 0px;
+    }
+    .footer .right-col ul li {
+        display: inline-block;
+        font-size: 11px;
+    }
+}
