@@ -290,6 +290,27 @@ ul.label_social_link {
     color: #88eccc47 !important;
 }
 
+/*  Become Noompang Page */
+.body-faq {
+    background-color: #ffffff;
+    color: #232f4a;
+    padding: 30px 0px 60px;
+}
+.body-faq .head-title {
+    text-align: center;
+    padding-bottom: 60px;
+}
+.body-faq .head-title .form-control {
+    display: inline;
+}
+.body-faq .head-title .form-control {
+    width: 70%;
+}
+
+.body-faq h4 {
+    font-weight: bold
+}
+
 /* parallax content */
 @media ( min-width: 990px) {
 
@@ -298,9 +319,9 @@ ul.label_social_link {
         position: relative;
         z-index: 1;
     
-        -webkit-box-shadow: #000 0 7px 35px 0;
-        -moz-box-shadow: #000 0 7px 35px 0;
-        box-shadow: #000 0 7px 35px 0;
+        -webkit-box-shadow: #000 0px 19px 35px 0;
+        -moz-box-shadow: #000 0px 19px 35px 0;
+        box-shadow: #000 0px 19px 35px 0;
     }
 
     #site-footer {
