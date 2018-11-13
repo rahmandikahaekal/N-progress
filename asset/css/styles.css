@@ -25,6 +25,9 @@ h3 {
 .navbar {
     margin-bottom: 0px;
 }
+.navbar-collapse {
+    background-color: rgb(255, 255, 255)
+}
 .navbar .nav a {
     color: #232f4a !important;
     font-size: 20px;
@@ -34,6 +37,9 @@ h3 {
 }
 .nav i {
     font-size: 25px;
+}
+.navbar #nav > .active > a {
+    color: red;
 }
 
 /* Home Banner */
@@ -290,26 +296,74 @@ ul.label_social_link {
     color: #88eccc47 !important;
 }
 
-/*  Become Noompang Page */
-.body-faq {
-    background-color: #ffffff;
-    color: #232f4a;
-    padding: 30px 0px 60px;
-}
-.body-faq .head-title {
+/* ========= FAQ Page ========= */
+.head-title {
     text-align: center;
     padding-bottom: 60px;
 }
+.body-faq {
+    background-color: #ffffff;
+    color: #232f4a;
+    height: 100vh;
+    padding: 30px 0px 60px;
+}
 .body-faq .head-title .form-control {
     display: inline;
-}
-.body-faq .head-title .form-control {
     width: 70%;
+    border-radius: 0;
 }
-
+.body-faq .form-control:focus {
+    border-color: #6d757b;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(92, 100, 107, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(88, 94, 99, 0.6);
+}
+.body-faq .main_faq_area {
+    padding: 0 40px;
+}
+.body-faq .main_faq_area ul li {
+    padding-bottom: 20px;
+}
 .body-faq h4 {
     font-weight: bold
 }
+
+
+/* ========= Become Noompang Page ========= */
+.body-contact {
+    background-color: #ffffff;
+    color: #232f4a;
+    height: 100vh;
+    padding: 30px 0px 60px;
+}
+.body-contact .head-title {
+    padding-bottom: 40px
+}
+.main_contact_area {
+    text-align: center;
+}
+.main_contact_area input,
+.main_contact_area select,
+.main_contact_area textarea,
+.main_contact_area button {
+    border-radius: 0;
+}
+.main_contact_area input,
+.main_contact_area textarea {
+    padding: 20px;
+}
+.main_contact_area button {
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.main_contact_area select {
+    padding: 10px;
+    height: 25%;
+}
+.main_contact_area textarea {
+    height: 210px;
+}
+
 
 /* parallax content */
 @media ( min-width: 990px) {
@@ -341,5 +395,18 @@ ul.label_social_link {
     #site-footer {
         min-height: 5vw;
         
+    }
+}
+@media (max-width: 995px) {
+    .body-faq {
+        height: auto;
+    }
+}
+@media (min-width:1000px ) {
+    .navbar {
+        max-height: 51px;
+    }
+    .body-faq {
+        height: 100vh;
     }
 }
