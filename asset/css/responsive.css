@@ -1,26 +1,30 @@
-@media (max-width: 1025px) {
-    .home-banner {
-        height: 585px;
-        background-position: bottom
-    }
-    .main_banner_area .logo-nompang {
-        width: 45%;
-    }
-    .main_banner_area h2 {
-        font-size: 3.5em;
-    }
-    .img-promo {
-        width: 175px;
-        margin-right: 20px
-    }
+@media only screen and (min-width: 1000) and (max-width: 1199px) {
 
-    .popular .card-body p {
-        font-weight: bold;
-        font-size: 1.5em;
-        padding: 15px 0px 20px 20px;
+
+    .feature {
+        padding-top: 30px;
     }
-    .popular .card-img {
-        border-radius: 27px 27px 0 0;
+    .main_feature_area span.title-fitur {
+        padding-top: 7%;
+        font-size: 4em;
+        left: 11%;
+    }
+    .main_feature_area .carousel {
+        margin-left: 18em;
+    }
+    .main_feature_area .carousel-inner {
+        width: 115%;
+    }
+    .main_feature_area .item img {
+        width: 40%;
+    }
+    .main_feature_area .detail-fitur {
+        left: 20em;
+        bottom: 17em;
+    }
+    .main_feature_area .carousel-indicators {
+        bottom: 3em;
+        left: 13.3em;
     }
 }
 
@@ -28,10 +32,146 @@
     #site-content {
         margin-bottom: 0px !important;
     }
-    
 }
-@media (max-width: 426px) {
+
+@media only screen and (min-width: 788px) and (max-width: 991px) {
+    .main_feature_area {
+        padding-top: 20px;
+    }
+    .main_feature_area span.title-fitur {
+        position: static;
+    }
+    .main_feature_area .carousel {
+        width: 100%;
+        margin: 0;
+        padding-top: 25px;
+    }
+    .main_feature_area .detail-fitur {
+        position: relative;
+        left: 27em;
+        bottom: 23em;
+    }
+    .main_feature_area .carousel-indicators {
+        left: 26.3em;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 787px) {
+    .home-banner {
+        background-position: bottom center;
+    }
+    .home-banner .main_banner_area {
+        padding: 70px 20px 0;
+    }
+
+
+    .feature {
+        height: 615px;
+        padding: 0;
+    }
+    .main_feature_area span.title-fitur {
+        position: static;
+        padding: 0 2em;
+        font-size: 4em;
+    }
+    .main_feature_area .carousel {
+        width: 100%;
+        margin: 0;
+    }
+    .main_feature_area .carousel .carousel-inner {
+        padding-top: 30px;
+    }
+    .main_feature_area .item img {
+        width: 50%;
+    }
+    .main_feature_area .detail-fitur {
+        padding: 30px 15px 45px;
+        position: relative;
+        width: 45%;
+    }
+    .main_feature_area .carousel-indicators {
+        bottom: 10em;
+        left: 50%;
+    }
+}
+
+@media only screen and (min-width: 334px) and (max-width: 500px) {
     /* Home-Banner */
+    .home-banner {
+        height: 500px;
+        background-position: bottom center;
+    }
+    .home-banner .main_banner_area {
+        padding: 70px 20px 0;
+    }
+    .home-banner .main_banner_area img.logo-nompang {
+        width: 80%;
+    }
+    .home-banner .main_banner_area h2 {
+        font-size: 2.7em;
+    }
+    .home-banner .button-store .img-promo {
+        margin-bottom: 10px;
+        width: 135px;
+        display: inline;
+    }
+
+
+    /* Feature */
+    .main_feature_area span.title-fitur {
+        position: static;
+        padding: 0 2em;
+        font-size: 4em;
+    }
+    .main_feature_area .carousel {
+        width: 100%;
+        margin: 0;
+    }
+    .main_feature_area .carousel-indicators {
+        bottom: 10px;
+        left: 50%;
+    }
+    .main_feature_area .item img {
+        width: 100%;
+    }
+    .main_feature_area .detail-fitur {
+        padding: 30px 15px 45px;
+        position: static;
+        left: 0;
+        bottom: 0;
+    }
+
+    .core-value h3 {
+        padding-bottom: 45px;
+    }
+    .core-value .col-md-4 {
+        padding-bottom: 30px
+    }
+    .core-value p.desc {
+        padding: 15px 40px;
+    }
+
+
+
+    .popular h3 {
+        padding: 0 20px 40px;
+    }
+    .popular .card-title p,
+    .popular .card-body p {
+        font-size: 1.5em;
+    }
+
+    /* Footer */
+    div.foot-social div.main_foot_area div.col-1 {
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 333px) {
+    /* Home-Banner */
+    .home-banner {
+        height: 500px;
+        background-position: bottom center;
+    }
     .home-banner .main_banner_area {
         padding: 70px 20px 0;
     }
@@ -71,8 +211,9 @@
     }
 
     /* Popular */
-    .popular .card-title p {
-        font-size: 2.5em;
+    .popular .card-title p,
+    .popular .card-body p {
+        font-size: 1.5em;
     }
 
 
@@ -102,3 +243,4 @@
         font-size: 11px;
     }
 }
+
