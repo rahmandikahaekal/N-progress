@@ -198,15 +198,261 @@ h3 {
 .popular .card-img {
     border-radius: 27px 27px 0 0;
 }
-.popular .card-img::after {
-    background-color: #000;
-    opacity: 0.4;
-}
 .popular .card-body p {
     font-weight: bold;
     font-size: 2.5em;
     padding: 15px 50px 20px;
 }
+
+/* ========= Safety & Trust Page ========= */
+/* Safety Trust */
+.safety {
+    background-color: #fff;
+    padding: 40px 0px;
+}
+.main_safety_area h3 {
+    padding-bottom: 30px;
+}
+.main_safety_area h3,
+.main_safety_area h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Testimonoial */
+.testi {
+    background-color: #f0f1f8;
+    padding: 70px 0px;
+}
+.testimonial{
+    background: #212d46;
+    padding: 30px 40px 30px 90px;
+    margin: 50px 20px 50px 100px;
+    border-radius: 0 85px 85px 0;
+    color: #fff;
+    position: relative;
+}
+.testimonial .pic{
+    width: 190px;
+    height: 190px;
+    line-height: 200px;
+    border-radius: 50%;
+    border: 14px solid #212d46;
+    position: absolute;
+    top: -15px;
+    left: -100px;
+    overflow: hidden;
+}
+.testimonial .testimonial-title{
+    display: inline-block;
+    width: 35%;
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 28px 20px;
+    margin: 0;
+    border-right: 1px solid rgba(255,255,255,0.5);
+}
+.testimonial .testimonial-title small{
+    display: block;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 5px;
+}
+.testimonial .description{
+    display: inline-block;
+    width: 65%;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    margin-bottom: 0;
+    padding: 28px 0 28px 28px;
+    position: relative;
+}
+.testimonial .description:before{
+    content: "\f10d";
+    font-family: "FontAwesome";
+    font-weight: 900;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: 20px;
+    color: rgba(255,255,255,0.5);
+}
+.testimonial .description:after{
+    content: "\f10e";
+    font-family: "FontAwesome";
+    font-weight: 900;
+    font-size: 20px;
+    color: rgba(255,255,255,0.5);
+    position: absolute;
+    bottom: 5px;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page span{
+    width: 7px;
+    height: 7px;
+    background: #212d46;
+    border: 4px solid #212d46;
+    box-sizing: content-box;
+}
+.owl-theme .owl-controls .owl-page span{
+    border: 4px solid transparent;
+    background: #bcbcbc;
+}
+@media only screen and (max-width: 767px){
+    .testimonial{
+        border-radius: 40px;
+        margin: 90px 15px 0;
+        padding: 100px 40px 30px 40px;
+    }
+    .testimonial .pic{
+        position: absolute;
+        top: -85px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .testimonial .testimonial-title{
+        width: 100%;
+        float: none;
+        border-right: none;
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    .testimonial .description{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 480px){
+    .testimonial{ padding: 100px 30px 30px; }
+}
+
+/* Noompang Checklist */
+.checklist {
+    background-color: #fff;
+    padding: 60px 0px 30px;
+}
+.main_checklist_area h3 {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+.main_checklist_area ul {
+    padding: 0;
+    padding-top: 20px;
+}
+.main_checklist_area ul li:before {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    font-size: 20px;
+}
+.main_checklist_area ul {
+    list-style: none;
+}
+.main_checklist_area h4{
+    font-weight: bold;
+    font-size: 22px;
+}
+.main_checklist_area ul li span {
+    font-weight: bold;
+    padding-left: 6px;
+}
+.main_checklist_area ul li p {
+    padding-left: 30px;
+}
+
+/* Tips to Noompang User */
+.tips {
+    background-color: #f6f6f7;
+    padding: 60px 0;
+}
+.tips h4 {
+    font-weight: bold;
+}
+.main_tips_area div {
+    padding: 0 50px;
+}
+.tips ul li {
+    font-size: 
+}
+
+/* ========= END Safety & Trust Page ========= */
+
+
+/* ========= FAQ Page ========= */
+.head-title {
+    text-align: center;
+    padding-bottom: 60px;
+}
+.body-faq {
+    background-color: #ffffff;
+    color: #232f4a;
+    height: 100vh;
+    padding: 30px 0px 60px;
+}
+.body-faq .head-title .form-control {
+    display: inline;
+    width: 70%;
+    border-radius: 0;
+}
+.body-faq .form-control:focus {
+    border-color: #6d757b;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(92, 100, 107, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(88, 94, 99, 0.6);
+}
+.body-faq .main_faq_area {
+    padding: 0 40px;
+}
+.body-faq .main_faq_area ul li {
+    padding-bottom: 20px;
+}
+.body-faq h4 {
+    font-weight: bold
+}
+/* ========= END FAQ Page ========= */
+
+
+/* ========= Contact Us Page ========= */
+.body-contact {
+    background-color: #ffffff;
+    color: #232f4a;
+    height: 100vh;
+    padding: 30px 0px 60px;
+}
+.body-contact .head-title {
+    padding-bottom: 40px
+}
+.main_contact_area {
+    text-align: center;
+}
+.main_contact_area input,
+.main_contact_area select,
+.main_contact_area textarea,
+.main_contact_area button {
+    border-radius: 0;
+}
+.main_contact_area input,
+.main_contact_area textarea {
+    padding: 20px;
+}
+.main_contact_area button {
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.main_contact_area select {
+    padding: 10px;
+    height: 25%;
+}
+.main_contact_area textarea {
+    height: 210px;
+}
+/* ========= END Contact Us Page ========= */
+
 
 
 /* FOOTER */
@@ -266,7 +512,6 @@ ul.label_social_link {
     font-weight: bold;
 }
 .link-social li a:hover {
-    color: ;
     text-decoration: none;
 }
 
@@ -296,73 +541,6 @@ ul.label_social_link {
     color: #88eccc47 !important;
 }
 
-/* ========= FAQ Page ========= */
-.head-title {
-    text-align: center;
-    padding-bottom: 60px;
-}
-.body-faq {
-    background-color: #ffffff;
-    color: #232f4a;
-    height: 100vh;
-    padding: 30px 0px 60px;
-}
-.body-faq .head-title .form-control {
-    display: inline;
-    width: 70%;
-    border-radius: 0;
-}
-.body-faq .form-control:focus {
-    border-color: #6d757b;
-    outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(92, 100, 107, 0.6);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(88, 94, 99, 0.6);
-}
-.body-faq .main_faq_area {
-    padding: 0 40px;
-}
-.body-faq .main_faq_area ul li {
-    padding-bottom: 20px;
-}
-.body-faq h4 {
-    font-weight: bold
-}
-
-
-/* ========= Become Noompang Page ========= */
-.body-contact {
-    background-color: #ffffff;
-    color: #232f4a;
-    height: 100vh;
-    padding: 30px 0px 60px;
-}
-.body-contact .head-title {
-    padding-bottom: 40px
-}
-.main_contact_area {
-    text-align: center;
-}
-.main_contact_area input,
-.main_contact_area select,
-.main_contact_area textarea,
-.main_contact_area button {
-    border-radius: 0;
-}
-.main_contact_area input,
-.main_contact_area textarea {
-    padding: 20px;
-}
-.main_contact_area button {
-    padding: 10px 20px;
-    margin-top: 10px;
-}
-.main_contact_area select {
-    padding: 10px;
-    height: 25%;
-}
-.main_contact_area textarea {
-    height: 210px;
-}
 
 
 /* parallax content */
@@ -403,9 +581,6 @@ ul.label_social_link {
     }
 }
 @media (min-width:1000px ) {
-    .navbar {
-        max-height: 51px;
-    }
     .body-faq {
         height: 100vh;
     }
