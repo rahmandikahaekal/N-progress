@@ -371,7 +371,21 @@ h3 {
     padding: 60px 0;
 }
 .tips h4 {
+    padding-left: 20px;
     font-weight: bold;
+}
+.tips h4.title-1:before {
+    content: "\f193";
+    font-family: "FontAwesome";
+    font-size: 20px;
+    padding-right: 15px;
+}
+.tips h4.title-2:before {
+    content: "\f2be";
+    font-family: "FontAwesome";
+    font-size: 20px;
+    padding-right: 15px;
+
 }
 .main_tips_area div {
     padding: 0 50px;
@@ -380,13 +394,22 @@ h3 {
     font-size: 
 }
 
+/* Label Link */
+.label-link {
+    background-color: #1b9dd7;
+    padding: 20px 0;
+}
+.label-link .main_label_area h3 a:hover {
+    text-decoration: none;
+}
+
 /* ========= END Safety & Trust Page ========= */
 
 
 /* ========= FAQ Page ========= */
 .head-title {
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 }
 .body-faq {
     background-color: #ffffff;
@@ -396,14 +419,24 @@ h3 {
 }
 .body-faq .head-title .form-control {
     display: inline;
-    width: 70%;
     border-radius: 0;
+    padding: 25px 4%;
+    width: 70%;
 }
 .body-faq .form-control:focus {
     border-color: #6d757b;
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(92, 100, 107, 0.6);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(88, 94, 99, 0.6);
+}
+.body-faq form:before {
+    content: "\f002";
+    font-family: "FontAwesome";
+    font-size: 20px;
+    color: #ddd;
+    position: relative;
+    top: 40px;
+    left: -33%;
 }
 .body-faq .main_faq_area {
     padding: 0 40px;
