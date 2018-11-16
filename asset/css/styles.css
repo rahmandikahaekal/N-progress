@@ -71,52 +71,21 @@ h3 {
     padding: 0 0 50px;
 }
 .main_feature_area span.title-fitur {
-    position: absolute;
+    position: relative;
     left: 15%;
-    padding-top: 15%;
+    padding-top: 8%;
     font-size: 4.4em;
     font-weight: bold;
 }
-.main_feature_area .carousel {
-    width: 65%;
-    margin-left: 23em;
-}
-.main_feature_area .carousel-indicators {
-    bottom: 3em;
-    left: 16.3em;
-}
-.main_feature_area .carousel-indicators li {
-    background-color: transparent;
-    border: 2px solid #212d46;
-    width: 15px; height: 15px;
-}
-.main_feature_area .carousel-indicators .active {
-    background-color: #212d46;
-    border-color: #212d46;
-}
-.main_feature_area .item img {
-    width: 60%;
-}
-.main_feature_area .detail-fitur {
-    position: relative;
-    left: 27em;
-    bottom: 23em;
-}
-.detail-fitur b {
+.main_feature_area div.mobile strong {
     font-size: 2em;
 }
-.detail-fitur b span {
+.main_feature_area strong span {
     background-color: #212d46;
     color: #fff;
-    padding: 3px 10px;
+    padding: 1px 9px;
     border-radius: 50%;
 }
-.detail-fitur p {
-    font-size: 1em;
-    padding-left: 3em;
-    font-weight: bold;
-}
-
 
 /* Core Value */
 .core-value {
