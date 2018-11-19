@@ -36,21 +36,10 @@ $(document).ready(function() {
 
   });
 
-  $(".carousel").swipe({
-
-    swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
-  
-      if (direction == 'left') $(this).carousel('next');
-      if (direction == 'right') $(this).carousel('prev');
-  
-    },
-    allowPageScroll:"vertical"
-  
-  });
-
   $(function() {
     $('#nav li a').click(function() {
        $('#nav li').removeClass();
        $($(this).attr('href')).addClass('active');
     });
   });
+

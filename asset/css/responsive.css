@@ -28,8 +28,9 @@
         position: relative;
         bottom: 6em;
     }
+
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
     .main_feature_area span.title-fitur {
         position: absolute;
     }
@@ -48,6 +49,10 @@
         bottom: 6em;
         right: 20%;
     }
+
+    .body-faq .head-title .form-control {
+        padding: 25px 5%;
+    }
 }
 
 @media only screen and (min-width: 788px) and (max-width: 991px) {
@@ -56,6 +61,12 @@
     }
     .main_feature_area span.title-fitur {
         position: static;
+    }
+    .body-faq form:before {
+        left: -31%;
+    }
+    .body-faq .head-title .form-control {
+        padding: 25px 6%;
     }
 }
 
@@ -75,6 +86,13 @@
         position: static;
         padding: 0 2em;
         font-size: 4em;
+    }
+
+    .body-faq form:before {
+        left: -31%;
+    }
+    .body-faq .head-title .form-control {
+        padding: 25px 8%;
     }
 
     
@@ -135,6 +153,18 @@
     }
     .main_tips_area div {
         padding: 0;
+    }
+
+    /* ========= Terms Conditions Page */
+    .main_terms_area .head-title {
+        padding-top: 10%;
+    }
+
+    .body-faq form:before {
+        left: -28%;
+    }
+    .body-faq .head-title .form-control {
+        padding: 25px 10%;
     }
 
     /* Footer */

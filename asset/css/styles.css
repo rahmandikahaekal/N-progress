@@ -20,6 +20,15 @@ h3 {
     font-size: 3em;
     font-weight: bold;
 }
+hr {
+    margin: 0;
+    height: 3px;
+    background-color: #d0d0d0;
+}
+.head-title {
+    text-align: center;
+    padding-bottom: 40px;
+}
 .overlay {
     position: absolute;
     left: 0;
@@ -202,213 +211,7 @@ h3 {
     padding: 15px 50px 20px;
 }
 
-/* ========= Safety & Trust Page ========= */
-/* Safety Trust */
-.safety {
-    background-color: #fff;
-    padding: 40px 0px;
-}
-.main_safety_area h3 {
-    padding-bottom: 30px;
-}
-.main_safety_area h3,
-.main_safety_area h4 {
-    text-align: center;
-    font-weight: bold;
-}
-
-/* Testimonoial */
-.testi {
-    background-color: #fff;
-    padding: 70px 0px;
-}
-.testimonial{
-    background: #212d46;
-    padding: 30px 40px 30px 90px;
-    margin: 50px 20px 50px 100px;
-    border-radius: 0 85px 85px;
-    color: #fff;
-    position: relative;
-}
-.testimonial .pic{
-    width: 190px;
-    height: 190px;
-    line-height: 200px;
-    border-radius: 50%;
-    border: 14px solid #212d46;
-    position: absolute;
-    top: -15px;
-    left: -100px;
-    overflow: hidden;
-}
-.testimonial .testimonial-title{
-    display: inline-block;
-    width: 35%;
-    float: left;
-    font-size: 20px;
-    font-weight: 700;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    padding: 10px 20px;
-    margin: 0;
-    border-right: 1px solid rgba(255,255,255,0.5);
-}
-.testimonial .testimonial-title small{
-    display: block;
-    font-size: 12px;
-    color: #fff;
-    margin-top: 5px;
-}
-.testimonial .description{
-    display: inline-block;
-    width: 65%;
-    font-size: 15px;
-    color: #fff;
-    letter-spacing: 0.5px;
-    margin-bottom: 0;
-    padding: 28px 0 28px 28px;
-    position: relative;
-}
-.testimonial .description:before{
-    content: "\f10d";
-    font-family: "FontAwesome";
-    font-weight: 900;
-    position: absolute;
-    top: 0;
-    left: 10px;
-    font-size: 20px;
-    color: rgba(255,255,255,0.5);
-}
-.testimonial .description:after{
-    content: "\f10e";
-    font-family: "FontAwesome";
-    font-weight: 900;
-    font-size: 20px;
-    color: rgba(255,255,255,0.5);
-    position: absolute;
-    bottom: 5px;
-}
-.owl-theme .owl-controls .owl-page.active span,
-.owl-theme .owl-controls .owl-page span{
-    width: 7px;
-    height: 7px;
-    background: #212d46;
-    border: 4px solid #212d46;
-    box-sizing: content-box;
-}
-.owl-theme .owl-controls .owl-page span{
-    border: 4px solid transparent;
-    background: #bcbcbc;
-}
-@media only screen and (max-width: 767px){
-    .testimonial{
-        border-radius: 40px;
-        margin: 90px 15px 0;
-        padding: 100px 40px 30px 40px;
-    }
-    .testimonial .pic{
-        position: absolute;
-        top: -85px;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-    }
-    .testimonial .testimonial-title{
-        width: 100%;
-        float: none;
-        border-right: none;
-        text-align: center;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    }
-    .testimonial .description{
-        width: 100%;
-    }
-}
-@media only screen and (max-width: 480px){
-    .testimonial{ padding: 100px 30px 30px; }
-}
-
-/* Noompang Checklist */
-.checklist {
-    background-color: #fff;
-    padding: 60px 0px 30px;
-}
-.main_checklist_area h3 {
-    text-align: center;
-    padding-bottom: 40px;
-    font-size: 30px;
-}
-.main_checklist_area ul {
-    padding: 0;
-    padding-top: 20px;
-}
-.main_checklist_area ul li:before {
-    content: "\f00c";
-    font-family: "FontAwesome";
-    font-size: 20px;
-}
-.main_checklist_area ul {
-    list-style: none;
-}
-.main_checklist_area h4{
-    font-weight: bold;
-    font-size: 22px;
-}
-.main_checklist_area ul li span {
-    font-weight: bold;
-    padding-left: 6px;
-}
-.main_checklist_area ul li p {
-    padding-left: 30px;
-}
-
-/* Tips to Noompang User */
-.tips {
-    background-color: #fff;
-    padding: 60px 0;
-}
-.tips h4 {
-    padding-left: 20px;
-    font-weight: bold;
-}
-.tips h4.title-1:before {
-    content: "\f193";
-    font-family: "FontAwesome";
-    font-size: 20px;
-    padding-right: 15px;
-}
-.tips h4.title-2:before {
-    content: "\f2be";
-    font-family: "FontAwesome";
-    font-size: 20px;
-    padding-right: 15px;
-
-}
-.main_tips_area div {
-    padding: 0 50px;
-}
-.tips ul li {
-    font-size: 
-}
-
-/* Label Link */
-.label-link {
-    background-color: #1b9dd7;
-    padding: 20px 0;
-}
-.label-link .main_label_area h3 a:hover {
-    text-decoration: none;
-}
-
-/* ========= END Safety & Trust Page ========= */
-
-
 /* ========= FAQ Page ========= */
-.head-title {
-    text-align: center;
-    padding-bottom: 40px;
-}
 .body-faq {
     background-color: #ffffff;
     color: #232f4a;
@@ -447,6 +250,52 @@ h3 {
 }
 /* ========= END FAQ Page ========= */
 
+/* ========= Terms Page ========= */
+.body-terms {
+    background-color: #ffffff;
+    height: auto;
+}
+.main_terms_area h3 {
+    margin-bottom: 20px;
+}
+.main_terms_area .nav a {
+    text-decoration: none;
+    color: #6c757d;
+    padding-right: 10px;
+}
+.main_terms_area .nav a:hover,
+.main_terms_area .nav a.active {
+    text-decoration: none;
+    color: #007bff;
+}
+.main_terms_area .head-title {
+    padding-top: 5%;
+}
+.main_terms_area .head-title span {
+    font-size: 29px;
+    font-weight: bold;
+}
+.terms-point ul {
+    padding: 0;
+}
+.terms-point ul li {
+    list-style: none;
+    padding-bottom: 20px;
+}
+.terms-point ul li:nth-child(1)::before { content: "1." }
+.terms-point ul li:nth-child(2)::before { content: "2." }
+.terms-point ul li:nth-child(3)::before { content: "3." }
+.terms-point ul li:nth-child(4)::before { content: "4." }
+.terms-point ul li span,
+.terms-point ul li::before {
+    font-weight: bold;
+    font-size: 17px;
+}
+.terms-point ul li p {
+    padding-left: 20px;
+    font-size: 16px;
+}
+/* ========= END Safety & Trust Page ========= */
 
 /* ========= Contact Us Page ========= */
 .body-contact {
@@ -514,7 +363,155 @@ h3 {
 }
 /* ========= END Contact Us Page ========= */
 
+/* ========= Safety & Trust Page ========= */
+/* Safety Trust */
+.safety {
+    background-color: #fff;
+    padding: 40px 0px;
+    height: 400px;
+}
+.main_safety_area h3 {
+    padding-bottom: 30px;
+}
+.main_safety_area h3,
+.main_safety_area h4 {
+    text-align: center;
+    font-weight: bold;
+}
 
+/* Testimonoial */
+.testi {
+    background-color: #fff;
+    padding: 70px 0px;
+}
+.testi div.text-center h3 {
+    padding-bottom: 50px;
+}
+.testi .testimonial {
+    margin: 0 15px
+}
+.testi .testimonial .content:after {
+    content: "";
+    border-top: 10px solid #000;
+    border-left: 10px solid transparent;
+    border-right: 9px solid transparent;
+    position: absolute;
+    bottom: -10px;
+    left: 16%;
+}
+.testi .testimonial .content {
+    border: 2px solid #000;
+    padding: 0 30px 25px;
+    margin-bottom: 15px;
+    position: relative;
+    background: #f6f6f6;
+    min-height: 100px;
+}
+.testi .testimonial i {
+    font-size: 20px;
+    position: relative;
+    top: 25px;
+}
+.testi .testimonial .description {
+    margin-bottom: 0;
+    padding-left: 30px;
+}
+.testi .testimonial-pic {
+    float: left;
+}
+.testi .testimonial-pic>img {
+    width: 80px !important;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #e5e5e5;
+    margin-left: 40px;
+}
+.testi .testimonial .testimonial-review {
+    margin: 3px 0 0 15px;
+    float: left;
+}
+.testi .testimonial .testimonial-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+}
+.testi .testimonial>.testimonial-review span {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+/* Noompang Checklist */
+.checklist {
+    background-color: #fff;
+    padding: 60px 0px 60px;
+}
+.main_checklist_area h3 {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+.main_checklist_area ul {
+    padding: 0;
+    padding-top: 20px;
+}
+.main_checklist_area ul li:before {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    font-size: 20px;
+}
+.main_checklist_area ul {
+    list-style: none;
+}
+.main_checklist_area h4{
+    font-weight: bold;
+    font-size: 22px;
+}
+.main_checklist_area ul li span {
+    font-weight: bold;
+    padding-left: 6px;
+}
+.main_checklist_area ul li p {
+    padding-left: 30px;
+}
+
+/* Tips to Noompang User */
+.tips {
+    background-color: #fff;
+    padding: 60px 0;
+}
+.tips h4 {
+    padding-left: 20px;
+    font-weight: bold;
+}
+.tips h4.title-1:before {
+    content: "\f193";
+    font-family: "FontAwesome";
+    font-size: 20px;
+    padding-right: 15px;
+}
+.tips h4.title-2:before {
+    content: "\f2be";
+    font-family: "FontAwesome";
+    font-size: 20px;
+    padding-right: 15px;
+
+}
+.main_tips_area div {
+    padding: 0 50px;
+}
+/* Label Link */
+.label-link {
+    background-color: #1b9dd7;
+    padding: 20px 0;
+}
+.label-link .main_label_area h3 a:hover {
+    text-decoration: none;
+}
+
+/* ========= END Safety & Trust Page ========= */
 
 /* FOOTER */
 #site-footer{
