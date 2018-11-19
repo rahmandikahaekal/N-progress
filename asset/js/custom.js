@@ -24,6 +24,16 @@ $(document).ready(function() {
         "margin-bottom" : siteFooterHeight + 50
       });
     };
+
+    $('.play-btn').magnificPopup({
+        disableOn: 700,
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+        fixedContentPos: false
+    });
+
   });
 
   $(".carousel").swipe({
