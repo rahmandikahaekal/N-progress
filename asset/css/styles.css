@@ -92,7 +92,7 @@ hr {
 .feature {
     background-color: #f0f1f8;
     color: #212d46;
-    padding: 0 0 50px;
+    height: 700px;
 }
 .main_feature_area span.title-fitur {
     position: relative;
@@ -104,13 +104,23 @@ hr {
 .main_feature_area div.mobile strong {
     font-size: 2em;
 }
+.main_feature_area .owl-carousel .mobile .pic img {
+    width: 60%;
+    background-color: #f0f1f7;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 2px 16px 40px 0px #000;
+}
 .main_feature_area strong span {
     background-color: #212d46;
     color: #fff;
     padding: 1px 9px;
     border-radius: 50%;
 }
-
+.owl-theme .owl-controls .owl-page span {
+    background-color: #2b2f2e;
+}
 /* Core Value */
 .core-value {
     background-color: #ffffff;
