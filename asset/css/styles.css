@@ -83,6 +83,12 @@ hr {
 .main_banner_area h2 {
     margin-bottom: 20px;
 }
+.main_banner_area span {
+    font-size: 1.5em;
+}
+.main_banner_area .button-store {
+    margin-top: 15px;
+}
 .img-promo {
     width: 250px;
     margin-right: 20px
@@ -121,14 +127,42 @@ hr {
 .owl-theme .owl-controls .owl-page span {
     background-color: #2b2f2e;
 }
+
+/* How it's work */
+.work {
+    background-color: #fff;
+    padding: 60px 0;
+}
+.work h3 {
+    color: #232f4b;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.work h4 {
+    padding-left: 20px;
+    font-weight: bold;
+}
+.work h4.title-1:before {
+    content: "\f193";
+    font-family: "FontAwesome";
+    font-size: 20px;
+    padding-right: 15px;
+}
+.work h4.title-2:before {
+    content: "\f2be";
+    font-family: "FontAwesome";
+    font-size: 20px;
+    padding-right: 15px;
+
+}
+.main_work_area div {
+    padding: 0 50px;
+}
 /* Core Value */
 .core-value {
     background-color: #ffffff;
     color: #232f4a;
-    padding: 70px 0px;
-}
-.core-value h3 {
-    padding-bottom: 70px;
+    padding: 20px 0px 70px;
 }
 .core-value span {
     font-size: 30px;
@@ -240,7 +274,7 @@ hr {
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(92, 100, 107, 0.6);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(88, 94, 99, 0.6);
 }
-.body-faq form:before {
+/* .body-faq form:before {
     content: "\f002";
     font-family: "FontAwesome";
     font-size: 20px;
@@ -248,7 +282,7 @@ hr {
     position: relative;
     top: 40px;
     left: -33%;
-}
+} */
 .body-faq .main_faq_area {
     padding: 0 40px;
 }

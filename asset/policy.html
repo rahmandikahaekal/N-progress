@@ -19,39 +19,51 @@
    <link href="css/styles.css" rel="stylesheet">
    <link href="css/responsive.css" rel="stylesheet">
   </head>
+  <style>
+        header {
+            background-color: white;
+            padding: 0.5rem 1rem 0;
+        }
+        header nav.navbar-detail-page a,
+        header nav.navbar-detail-page h6 {
+            display: inline-block;
+        }
+        .navbar-logo {
+            display: inline-block;
+            padding-top: 0.3125rem;
+            padding-bottom: 0.3125rem;
+            margin-right: 1rem;
+            font-size: 1.25rem;
+            line-height: inherit;
+            white-space: nowrap;
+        }
+        .logo-nav-bar {
+            height: 30px !important;
+        }
+        .navbar-detail-page h6 {
+            font-size: 16px;
+        }
+
+        header .nav-tabs>li>a {
+            color: #727272;
+        }
+    </style>
   <body>
-      <!-- NAVIGATION BAR NOOMPANG -->
-        <nav class="navbar navbar-default" 
-            style="
-                background-color: white;
-                border-radius: 0;
-            ">
-            <div class="container-fluid">
+        <header>
+            <nav class="navbar-detail-page">
+                <a class="navbar-logo" href="../index.html">
+                    <img src="img/logo-transparent-bg.png" class="logo-nav-bar" alt="">
+                </a>
+                <h6 style="color: #727272">Have Any Question?</h6>
+            </nav>
 
-                <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="../index.html"><img class="img-responsive" src="img/logo small noompang.png"/></a>
-                </div>
-            
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul id="nav" class="nav navbar-nav">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="#">Become Noompang</a></li>
-                </ul>
-
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><i style="color: #93c235" class="fa fa-android"></i></a></li>
-                    <li><a href="#"><i style="color: #afafaf" class="fa fa-apple"></i></a></li>
-                </ul>
-                </div>
-            </div>
-        </nav>
+            <ul class="nav nav-tabs">
+                <li role="presentation" class="active"><a href="policy.html">Privacy</a></li>
+                <li role="presentation"><a href="terms.html">Terms</a></li>
+                <li role="presentation"><a href="faq.html">FAQ</a></li>
+                <li role="presentation"><a href="contact.html">Contact</a></li>
+            </ul>
+        </header>
 
         <div id="site-content">
 
@@ -61,14 +73,6 @@
                     <div class="row">
 
                         <div class="main_terms_area">
-                            <h4>Have Any Question?</h4>
-                            <nav class="nav nav-underline">
-                                <a class="nav-link active" href="policy.html">Privacy</a>
-                                <a class="nav-link" href="terms.html">Terms</a>
-                                <a class="nav-link" href="faq.html">FAQ</a>
-                                <a class="nav-link" href="contact.html">Contact Us</a>
-                            </nav>
-
                             <div class="col-md-12">
 
                                 <div class="head-title">
@@ -123,51 +127,51 @@
             <div class="foot-social">
                 <section>
                     <div class="container">
-                    <div class="main_foot_area">
-                        
-                    <div class="col-1 col-md-5 col-sm-4 text-left">
-                        <span class="waze-text">waze</span>
-                        <p>Join 100 million drivers already avoiding<br> traffic, police, and hazards with Waze</p>
-                        <ul class="label_social_link">
-                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href=""><i class="fa fa-instagram"></i></a></li>
-                        </ul>
-                        <br><br><br>
-                        <select class="language form-control">
-                            <option>English (UK)</option>
-                        </select>
-                    </div>
+                        <div class="main_foot_area">
+                            
+                            <div class="col-1 col-md-5 col-sm-12 text-left">
+                                <span class="waze-text">waze</span>
+                                <p>Join 100 million drivers already avoiding<br> traffic, police, and hazards with Waze</p>
+                                <ul class="label_social_link">
+                                    <li><a href="https://twitter.com/noompangcom" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://www.facebook.com/noompangcom/?ref=br_rs" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/noompang/?originalSubdomain=id" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="https://www.instagram.com/noompangcom/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                                <br><br><br>
+                                <select class="language form-control">
+                                    <option>English (UK)</option>
+                                </select>
+                            </div>
 
-                    <div class="col-md-2 col-sm-4">
-                        <span>Company</span>
-                        <ul class="link-social">
-                            <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="col-md-2 col-sm-4">
-                        <span>Help</span>
-                        <ul class="link-social">
-                            <li><a href="#">Help Centre</a></li>
-                            <li><a href="#">Customer Support</a></li>
-                            <li><a href="terms.html">Term of Use</a></li>
-                            <li><a href="policy.html">Privacy Police</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="col-md-2 col-sm-4">
-                        <span>Safety</span>
-                        <ul class="link-social">
-                            <li><a href="safety&trust.html">Safety & Trust</a></li>
-                            <li><a href="#">Noompang Checklist</a></li>
-                            <li><a href="#">Features yang mendukung</a></li>
-                        </ul>
-                    </div>
+                            <div class="col-md-2 col-sm-4">
+                                <span>Company</span>
+                                <ul class="link-social">
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="terms.html">Term of Use</a></li>
+                                    <li><a href="policy.html">Privacy Police</a></li>
+                                </ul>
+                            </div>
+                            
+                            <div class="col-md-2 col-sm-4">
+                                <span>Help</span>
+                                <ul class="link-social">
+                                    <li><a href="#">Help Center</a></li>
+                                    <li><a href="#">Customer Support</a></li>
+                                </ul>
+                            </div>
+                            
+                            <div class="col-md-2 col-sm-4">
+                                <span>Safety</span>
+                                <ul class="link-social">
+                                    <li><a href="safety&trust.html">Safety & Trust</a></li>
+                                    <li><a href="#">Noompang Checklist</a></li>
+                                    <li><a href="#">Features yang mendukung</a></li>
+                                </ul>
+                            </div>
 
+                        </div>
                     </div>
-                </div>
             </section>
         </div>
         

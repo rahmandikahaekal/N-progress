@@ -65,7 +65,7 @@
     .feature {
         height: auto;
         padding: 0;
-    }
+    } 
     .body-faq form:before {
         left: -31%;
     }
@@ -109,6 +109,7 @@
         position: absolute;
         left: 0;
         right: 0;
+        z-index: 1;
     }
 }
 @media only screen and (min-width: 300px) and (max-width: 500px) {
@@ -119,9 +120,6 @@
     }
     .home-banner .main_banner_area {
         padding: 70px 20px 0;
-    }
-    .home-banner .main_banner_area img.logo-nompang {
-        width: 80%;
     }
     .home-banner .main_banner_area h2 {
         font-size: 2.7em;
@@ -134,15 +132,35 @@
 
 
     /* Feature */
+    section.feature {
+        height: auto;
+    }
     .main_feature_area div#mobile-slider.owl-carousel.owl-theme {
         padding-bottom: 50px;
     }
     .main_feature_area .owl-carousel .mobile .pic img {
         margin-left: 20%
     }
-    .main_feature_area .owl-carousel .mobile .detail-container {
-        padding: 0 40px;
+    .main_feature_area .owl-carousel .mobile .detail {
+        padding: 50px 40px 0;
     }
+    .main_feature_area .owl-carousel .mobile .detail strong {
+        font-size: 20px;
+    }
+    .main_feature_area strong span {
+        padding: 3px 9px;
+    }
+
+    /* How it's work */
+    section.work .main_work_area h3 {
+        padding: 0 13px 40px;
+        font-size: 30px;
+    }
+    div.main_work_area ul {
+        padding: 0;
+    }
+
+
     /* Core Value */
     .core-value h3 {
         padding-bottom: 45px;
@@ -173,9 +191,18 @@
         padding: 0;
     }
 
-    /* ========= Terms Conditions Page */
+    /* ========= Terms Conditions Page ========= */
+    header nav.navbar-detail-page {
+        padding-bottom: 20px;
+    }
+
     .main_terms_area .head-title {
         padding-top: 10%;
+    }
+
+    .body-faq h3 {
+        font-size: 2em;
+        padding: 30px 10px;
     }
 
     .body-faq form:before {
@@ -189,6 +216,7 @@
     div.foot-social div.main_foot_area div.col-1 {
         padding-bottom: 30px;
     }
+
 }
 @media (max-width: 333px) {
     /* Home-Banner */
@@ -199,15 +227,18 @@
     .home-banner .main_banner_area {
         padding: 70px 20px 0;
     }
-    .home-banner .main_banner_area img.logo-nompang {
-        width: 80%;
+    .main_banner_area .logo-nompang {
+        width: 50%;
     }
     .home-banner .main_banner_area h2 {
-        font-size: 2.7em;
+        font-size: 2em;
+    }
+    .main_banner_area span {
+        font-size: 1.3em;
     }
     .home-banner .button-store .img-promo {
         margin-bottom: 10px;
-        width: 135px;
+        width: 115px;
         display: inline;
     }
 
@@ -224,6 +255,11 @@
     .popular .card-title p,
     .popular .card-body p {
         font-size: 1.5em;
+    }
+
+    /* ========= Terms & Privacy Page ========= */
+    header .navbar-detail-page h6 {
+        font-size: 13px;
     }
 
 
