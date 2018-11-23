@@ -662,7 +662,7 @@ section.body-ask {
     display: block;
     position: relative;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
-    margin-top: -150px;
+    margin-top: -126px;
     height: 180px;
     width: 100%;
     content: '';
