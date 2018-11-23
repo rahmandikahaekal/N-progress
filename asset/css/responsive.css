@@ -20,9 +20,9 @@
 @media (min-width: 767px) and (max-width: 1024px) {
     .main_feature_area .mobile .detail {
         position: relative;
-        bottom: 19em;
-        left: 20%;
-        width: 60%;
+        bottom: 30em;
+        left: 25%;
+        width: 50%
     }
     .main_feature_area div#mobile-slider.owl-carousel.owl-theme div.owl-controls {
         position: relative;
@@ -35,24 +35,21 @@
         position: absolute;
     }
     .main_feature_area div#mobile-slider.owl-carousel.owl-theme {
-        width: 60%;
-        margin-left: 38%;
+        width: 70%;
+        margin-left: 30%;
     }
     .main_feature_area .mobile .detail {
         position: relative;
-        bottom: 20em;
-        left: 20%;
+        bottom: 40em;
+        left: 30%;
         width: 45%;
     }
     .main_feature_area div#mobile-slider.owl-carousel.owl-theme div.owl-controls {
         position: relative;
-        bottom: 10em;
-        right: 30%;
+        bottom: 9em;
+        right: 20%;
     }
 
-    .body-faq .head-title .form-control {
-        padding: 25px 5%;
-    }
 }
 
 @media only screen and (min-width: 788px) and (max-width: 991px) {
@@ -66,12 +63,6 @@
         height: auto;
         padding: 0;
     } 
-    .body-faq form:before {
-        left: -31%;
-    }
-    .body-faq .head-title .form-control {
-        padding: 25px 6%;
-    }
 }
 
 @media only screen and (min-width: 700px) and (max-width: 787px) {
@@ -86,20 +77,60 @@
         height: auto;
         padding: 0;
     }
+    .main_feature_area {
+        position: relative;
+        bottom: 10em;
+        height: 770px;
+    }
     .main_feature_area span.title-fitur {
         position: static;
         padding: 0 2em;
         font-size: 4em;
+        color: #eeeeee;
+    }
+    .main_feature_area div#mobile-slider.owl-carousel.owl-theme {
+        padding-bottom: 50px;
+        position: relative !important;
+        bottom: 0 !important;
+    }
+    .main_feature_area .owl-carousel .mobile .pic img {
+        width: 40% !important;
+
     }
 
-    .body-faq form:before {
-        left: -31%;
+    /* ========= Safety Page ======== */
+    div.main_checklist_area div.attention-card {
+        padding-bottom: 20px;
     }
-    .body-faq .head-title .form-control {
-        padding: 25px 8%;
+    div.main_checklist_area div.attention-card .head-checklist img,
+    div.main_checklist_area div.attention-card ul li img {
+        width: 4%;
     }
 
-    
+    .main_tips_area .tips-card ul li:before {
+        left: 11%;
+    }
+
+    /* ========= FAQ Page ========= */
+    .body-ask .main_ask_area {
+        width: 71%;
+        transform: translate(20%, 100%);
+    }
+    .main_ask_area div.input-group img {
+        height: 2em;
+        right: 16.3em;
+        top: 0.8em;
+    }
+
+    .main_topik_area .artikel-widget {
+        margin-top: 30px;
+    }
+        
+    /* ========= Privacy Page ========= */
+    .body-privacy .nav-card {
+        width: 80%;
+    }
+
     div.foot-social div.main_foot_area div.col-1 {
         padding-bottom: 30px;
     }
@@ -110,6 +141,14 @@
         left: 0;
         right: 0;
         z-index: 1;
+    }
+    .footer .right-col ul {
+        padding-left: 0px;
+    }
+    .footer section .left-col ,
+    .footer section .right-col {
+        padding: 0 15px;
+        text-align: center;
     }
 }
 @media only screen and (min-width: 300px) and (max-width: 500px) {
@@ -130,13 +169,14 @@
         display: inline;
     }
 
-
     /* Feature */
     section.feature {
         height: auto;
     }
     .main_feature_area div#mobile-slider.owl-carousel.owl-theme {
         padding-bottom: 50px;
+        position: relative !important;
+        bottom: 0 !important;
     }
     .main_feature_area .owl-carousel .mobile .pic img {
         margin-left: 20%
@@ -160,7 +200,6 @@
         padding: 0;
     }
 
-
     /* Core Value */
     .core-value h3 {
         padding-bottom: 45px;
@@ -172,14 +211,8 @@
         padding: 15px 40px;
     }
 
-
-
     .popular h3 {
         padding: 0 20px 40px;
-    }
-    .popular .card-title p,
-    .popular .card-body p {
-        font-size: 1.5em;
     }
 
     /* ========= Safety & Trust Page ========= */
@@ -187,29 +220,44 @@
         padding-left: 20px;
         padding-right: 20px;
     }
+    div.main_checklist_area div.attention-card {
+        padding-bottom: 25px;
+    }
+
     .main_tips_area div {
         padding: 0;
     }
 
-    /* ========= Terms Conditions Page ========= */
-    header nav.navbar-detail-page {
-        padding-bottom: 20px;
+    .main_label_area .label-card h3 {
+        font-size: 20px;
     }
+    
 
     .main_terms_area .head-title {
         padding-top: 10%;
     }
-
-    .body-faq h3 {
-        font-size: 2em;
-        padding: 30px 10px;
+    
+    /* ========= FAQ Page ========= */
+    .body-ask .main_ask_area {
+        width: 80%;
+        transform: translate(13%, 75%);
+    }
+    .main_topik_area .artikel-widget {
+        margin-top: 30px;
     }
 
-    .body-faq form:before {
-        left: -28%;
+    /* ========= Privacy Page ========  */
+    .body-privacy .nav-privacy-page {
+        position: absolute;
     }
-    .body-faq .head-title .form-control {
-        padding: 25px 10%;
+    .body-privacy div.tab-content {
+        padding-top: 6em;
+    }
+    .body-privacy .nav-card {
+        bottom: 4em;
+    }
+    .body-privacy .nav-card ul {
+        display: block;
     }
 
     /* Footer */
@@ -225,20 +273,19 @@
         background-position: bottom center;
     }
     .home-banner .main_banner_area {
-        padding: 70px 20px 0;
+        padding: 80px 20px 0;
     }
     .main_banner_area .logo-nompang {
-        width: 50%;
+        width: 65%;
     }
     .home-banner .main_banner_area h2 {
-        font-size: 2em;
+        font-size: 1.9em;
     }
     .main_banner_area span {
         font-size: 1.3em;
     }
     .home-banner .button-store .img-promo {
         margin-bottom: 10px;
-        width: 115px;
         display: inline;
     }
 
@@ -249,21 +296,67 @@
     }
     .main_feature_area .owl-carousel .mobile .pic img {
         margin-left: 10%;
+        width: 80% !important;
     }
 
     /* Popular */
-    .popular .card-title p,
-    .popular .card-body p {
-        font-size: 1.5em;
+    
+    
+    /* ========= FAQ Page ========  */
+    .body-ask .main_ask_area {
+        width: 70%;
+        transform: translate(20%, 50%);
+    }
+    .body-topik .main_topik_area h3.title-topik {
+        font-size: 35px;
+    }
+    .main_topik_area .topik-card {
+        padding: 15px 0px;
+        padding-left: 26%;        
     }
 
-    /* ========= Terms & Privacy Page ========= */
-    header .navbar-detail-page h6 {
-        font-size: 13px;
+    .main_topik_area .artikel-widget {
+        margin-top: 30px;
     }
 
+    /* ========= Privacy Page ========  */
+    .body-privacy .nav-privacy-page {
+        position: absolute;
+    }
+    .body-privacy div.tab-content {
+        padding-top: 6em;
+    }
+    .body-privacy .nav-card {
+        bottom: 7em;
+    }
+    .body-privacy .nav-card ul {
+        display: block;
+    }
+
+    /* ========= Safety Page ========= */
+    div.main_checklist_area .attention-card .head-checklist img {
+        padding: 0;
+        padding-bottom: 20px;
+    }
+    div.main_checklist_area  ul {
+        padding: 15px 20px 0;
+    }
+        div.main_tips_area div.tips-card span {
+        font-size: 20px;
+    }
+    div.main_tips_area div.tips-card ul {
+        padding-left: 15px;
+    }
+    div.main_label_area div.label-card h3 {
+        font-size: 22px;
+        padding: 10px 20px;
+        width: 100%;
+    }
 
     /* Footer */
+    .main_foot_area .logo-footer {
+        height: 50px;
+    }
     .foot-social, .footer {
         text-align: center;
     }
