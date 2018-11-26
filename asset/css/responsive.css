@@ -1,5 +1,10 @@
+@media (min-width: 1200px) {
+    
+    .main_ask_area div.input-group img {
+        right: 21em;
+    }
+}
 @media only screen and (min-width: 1000) and (max-width: 1199px) {
-
 
     .feature {
         padding-top: 30px;
@@ -125,12 +130,12 @@
 
     /* ========= FAQ Page ========= */
     .body-ask .main_ask_area {
-        width: 71%;
-        transform: translate(20%, 100%);
+        width: 70%;
+        left: 15%;
     }
     .main_ask_area div.input-group img {
         height: 2em;
-        right: 16.3em;
+        right: 15.3em;
         top: 0.8em;
     }
 
@@ -173,6 +178,23 @@
 }
 
 @media only screen and (min-width: 501px) and (max-width: 699px) {
+
+    /* ======== FAQ Page ========= */
+    .body-ask .main_ask_area {
+        transform: translate(35%, 70%);
+    }
+
+    .main_ask_area div.input-group img {
+        position: absolute;
+        height: 2.5em;
+        right: 11.3em;
+        top: 0.7em;
+        z-index: 11;
+        height: 30px;
+    }
+    .main_ask_area div.input-group input.form-control {
+        padding-left: 13%;
+    }
     
     /* ======== Privcacy Page ========= */
     div.nav-privacy-page li.nav-item a {
@@ -288,7 +310,7 @@
     /* ========= FAQ Page ========= */
     .body-ask .main_ask_area {
         width: 80%;
-        transform: translate(13%, 75%);
+        left: 10%;
     }
     .main_topik_area .artikel-widget {
         margin-top: 30px;
@@ -358,8 +380,7 @@
     
     /* ========= FAQ Page ========  */
     .body-ask .main_ask_area {
-        width: 70%;
-        transform: translate(20%, 50%);
+        left: 10%;        
     }
     .body-topik .main_topik_area h3.title-topik {
         font-size: 35px;
