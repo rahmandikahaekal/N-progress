@@ -63,6 +63,13 @@
         height: auto;
         padding: 0;
     } 
+
+
+    /* ========= Contact Page ========= */
+    div.body-contact {
+        padding: 60px 0px;
+        height: auto;
+    }
 }
 
 @media only screen and (min-width: 700px) and (max-width: 787px) {
@@ -147,6 +154,14 @@
         right: 0;
         z-index: 1;
     }
+
+
+    /* ========= Contact Page ========= */
+    div.body-contact {
+        padding: 60px 0px;
+        height: auto;
+    }
+
     .footer .right-col ul {
         padding-left: 0px;
     }
@@ -164,6 +179,7 @@
         font-size: 14px;
         padding: 10px 4px;
     }
+
 }
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
@@ -290,6 +306,12 @@
     }
     .body-privacy .nav-card ul {
         display: block;
+    }
+
+    /* ========= Contact Page ========= */
+    div.body-contact {
+        padding: 60px 0px;
+        height: auto;
     }
 
     /* Footer */

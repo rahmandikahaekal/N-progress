@@ -273,6 +273,21 @@ div.main_feature_area div#mobile-slider.owl-carousel.owl-theme {
 }
 
 /* ========= FAQ Page ========= */
+body.faq nav.navbar-default,
+body.faq div.navbar-collapse {
+    background-color: #212d46;
+}
+body.faq nav.navbar-default {
+    border-radius: 0;
+    border-color: #212d46;
+}
+body.faq .navbar-brand img {
+    width: auto !important;
+    height: 30px;
+}    
+body.faq .navbar .nav a {
+    color: #fff !important;
+}
 section.body-ask {
     background-color: #212d46;
     color: #fff;
@@ -815,7 +830,7 @@ ul.label_social_link {
 @media ( min-width: 990px) {
 
     #site-content {
-        min-height: 100vh;
+        min-height: auto;
         position: relative;
         z-index: 1;
     
@@ -841,15 +856,5 @@ ul.label_social_link {
     #site-footer {
         min-height: 5vw;
         
-    }
-}
-@media (max-width: 995px) {
-    .body-faq {
-        height: auto;
-    }
-}
-@media (min-width:1000px ) {
-    .body-faq {
-        height: 100vh;
     }
 }
