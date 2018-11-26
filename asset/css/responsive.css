@@ -98,6 +98,11 @@
 
     }
 
+    /* ========= Route Page ========= */
+    div.body-route div.main_route_area div.text-center h3 {
+        padding-top: 20px;
+    }
+
     /* ========= Safety Page ======== */
     div.main_checklist_area div.attention-card {
         padding-bottom: 20px;
@@ -151,6 +156,16 @@
         text-align: center;
     }
 }
+
+@media only screen and (min-width: 501px) and (max-width: 699px) {
+    
+    /* ======== Privcacy Page ========= */
+    div.nav-privacy-page li.nav-item a {
+        font-size: 14px;
+        padding: 10px 4px;
+    }
+}
+
 @media only screen and (min-width: 300px) and (max-width: 500px) {
     /* Home-Banner */
     .home-banner {
@@ -160,8 +175,14 @@
     .home-banner .main_banner_area {
         padding: 70px 20px 0;
     }
+    .home-banner .main_banner_area img.logo-nompang {
+        width: 60%;
+    }
     .home-banner .main_banner_area h2 {
-        font-size: 2.7em;
+        font-size: 2em;
+    }
+    .main_banner_area span {
+        font-size: 1.2em;
     }
     .home-banner .button-store .img-promo {
         margin-bottom: 10px;
@@ -179,7 +200,8 @@
         bottom: 0 !important;
     }
     .main_feature_area .owl-carousel .mobile .pic img {
-        margin-left: 20%
+        margin-left: 13%;
+        width: 70% !important;
     }
     .main_feature_area .owl-carousel .mobile .detail {
         padding: 50px 40px 0;
@@ -215,8 +237,18 @@
         padding: 0 20px 40px;
     }
 
+    /* ========= Route Page ========= */
+    div.body-route div.main_route_area div.text-center h3 {
+        padding-top: 40px;
+    }
+
     /* ========= Safety & Trust Page ========= */
+    div.main_safety_area h3 {
+        padding: 0 5px 2em;
+        font-size: 24px;
+    }
     .main_checklist_area h3 {
+        font-size: 24px;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -317,6 +349,11 @@
 
     .main_topik_area .artikel-widget {
         margin-top: 30px;
+    }
+
+    /* ========= Route Page ========  */
+    div.body-route div.main_route_area div.text-center h3 {
+        padding-top: 40px;
     }
 
     /* ========= Privacy Page ========  */

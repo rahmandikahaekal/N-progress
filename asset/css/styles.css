@@ -655,7 +655,7 @@ section.body-ask {
 /* ========= Route Page ========= */
 .body-route {
     background-color: #eaeaea;
-    height: 640px;
+    height: auto;
     padding-top: 10px;
 }
 .body-route::after {
